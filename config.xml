@@ -5,7 +5,7 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "qubehotel"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
     <name>ТЕСТ. Qube Hotel</name>
 
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#D2D2D2" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
